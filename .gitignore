@@ -1,0 +1,73 @@
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+.uv/
+uv.lock
+
+# ========================
+# Distribution / Build
+# ========================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ========================
+# Testing
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+# ========================
+# IDEs & Editors
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# LangChain / AI
+# ========================
+chroma_db/
+*.db
+*.sqlite
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
